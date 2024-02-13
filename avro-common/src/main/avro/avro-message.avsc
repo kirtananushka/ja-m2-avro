@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "AvroMessage",
+  "namespace": "com.tananushka.avro.demo",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "content",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "string"
+    }
+  ]
+}

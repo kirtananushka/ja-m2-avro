@@ -1,0 +1,15 @@
+###
+
+# curl -X POST http://localhost:8031/send 
+#     -H "Content-Type: application/json" 
+#     -d '{"id": "1", "content": "Message"}'
+POST http://localhost:8031/send
+Content-Type: application/json
+
+{
+  "id": "1",
+  "content": "Message"
+}
+
+###
+
